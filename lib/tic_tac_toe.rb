@@ -46,7 +46,7 @@ class TicTacToe
   end
   
   def turn
-    
+    puts "Player #{current_player}, please enter a number 1-9:"
     
   end
   
