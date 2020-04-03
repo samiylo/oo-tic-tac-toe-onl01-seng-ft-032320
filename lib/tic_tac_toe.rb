@@ -82,7 +82,9 @@ class TicTacToe
     !@board.any?{|item| item == "" || item == " "}
   end
   
-  def
+  def draw?
+    
+  end
   
 end
 
