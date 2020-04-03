@@ -82,6 +82,8 @@ class TicTacToe
     !@board.any?{|item| item == "" || item == " "}
   end
   
+  def
+  
 end
 
 
