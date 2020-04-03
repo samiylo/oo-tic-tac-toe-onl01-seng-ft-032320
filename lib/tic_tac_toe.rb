@@ -93,10 +93,15 @@ class TicTacToe
     end
   end
   
+  def play
+    turn until over?
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+  end
+  
 end
 
-# new_game = TicTacToe.new
-# new_game.play
+new_game = TicTacToe.new
+new_game.play
 
 
 
