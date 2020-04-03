@@ -66,7 +66,7 @@ class TicTacToe
     turn_count % 2 == 0 ? "X" : "O"
   end
   
-  def won
+  def won?
     one = WIN_COMBINATIONS.find{
       |combo|
       @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2]] == "X"
