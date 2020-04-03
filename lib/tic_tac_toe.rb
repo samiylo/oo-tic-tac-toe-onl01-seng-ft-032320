@@ -79,7 +79,7 @@ class TicTacToe
   end
   
   def full?
-    
+    !@board.any?{|item| item == "" || item == " "}
   end
   
 end
