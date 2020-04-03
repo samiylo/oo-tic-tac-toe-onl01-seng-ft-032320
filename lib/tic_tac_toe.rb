@@ -41,6 +41,7 @@ class TicTacToe
   end
   
   def valid_move(input)
+    input.index
     
   end
   
