@@ -83,7 +83,7 @@ class TicTacToe
   end
   
   def draw?
-    
+    !@board.any?{|n| n == "" || n == " "}
   end
   
 end
