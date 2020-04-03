@@ -78,6 +78,10 @@ class TicTacToe
     return one || two
   end
   
+  def full?
+    
+  end
+  
 end
 
 
